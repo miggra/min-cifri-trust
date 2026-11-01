@@ -1,0 +1,21 @@
+## Build output
+artifacts/
+
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+## Certs downloaded at runtime (keep folder via .gitkeep)
+src/MinCifriTrust/certs/*.cer
+src/MinCifriTrust/certs/*.crt
+src/MinCifriTrust/certs/*.pem
+src/MinCifriTrust/certs/*.der
+
+## OS
+Thumbs.db
+Desktop.ini
